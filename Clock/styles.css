@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+body {
+    font-family: "Montserrat", monospace, sans-serif;
+    background-image: linear-gradient(to right,#845EC2, #2C73D2, #0081CF, #0089BA, #008E9B, #008F7A);
+}
+
+.clock {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translatex(-50%) translateY(-50%);
+    color: white;
+    font-size: 2rem;
+}
+
+
+.clockMilitary {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%) translateY(-50%);
+    color: white;
+    font-size: 2rem;
+    display: none;
+}
+
+.clockBtn {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translatex(-50%) translateY(-50%) ;
+    padding: 0.7rem;
+    box-shadow: none;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    outline:none;
+}
+
+.clockBtn:hover {
+    cursor: pointer;
+    padding: 0.8rem;
+    font-size: 103%;
+    background-color: green;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+
+
